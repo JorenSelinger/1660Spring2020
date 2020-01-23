@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Speed Tree.ma
-//Last modified: Thu, Jan 23, 2020 10:26:45 AM
+//Last modified: Thu, Jan 23, 2020 10:28:24 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "F2DAAE38-4C20-EE66-2398-75A68B70518B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 14.792722958894942 10.435475196231884 -11.844750915843074 ;
-	setAttr ".r" -type "double3" -0.93835272958396798 858.19999999979848 0 ;
+	setAttr ".t" -type "double3" 10.275633226156527 17.740793205611261 -13.301336563163559 ;
+	setAttr ".r" -type "double3" -21.33835272958326 870.99999999979684 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5F545710-448F-B2A5-33E2-0BB57C95FC35";
 	setAttr -k off ".v" no;
