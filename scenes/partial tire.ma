@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: partial tire.ma
-//Last modified: Wed, Jan 29, 2020 10:58:12 AM
+//Last modified: Thu, Jan 30, 2020 10:03:06 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
