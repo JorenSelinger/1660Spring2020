@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: TIRETREAD.ma
-//Last modified: Tue, Feb 04, 2020 06:59:22 PM
+//Last modified: Tue, Feb 04, 2020 07:08:10 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "206A7077-44C2-CCFD-FD56-94B5FD59D137";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 12.226933469607278 -2.9037227378409938 34.943067404111268 ;
-	setAttr ".r" -type "double3" 9.2616472705390169 -1061.3999999994892 2.0973970591619093e-16 ;
+	setAttr ".t" -type "double3" 32.75565652598533 12.982804501423402 11.875618678485477 ;
+	setAttr ".r" -type "double3" -17.738352729425376 -1005.7999999993604 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "05A9E342-41F1-7F6A-F788-4EA07B46D9DB";
 	setAttr -k off ".v" no;
