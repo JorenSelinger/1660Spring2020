@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Dune Buggy hood improvement.ma
-//Last modified: Thu, Feb 20, 2020 05:04:51 PM
+//Last modified: Fri, Feb 21, 2020 09:09:18 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "CE36B900-4A5C-4E17-023C-469BE1AC7C07";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.33534043133918701 9.4566101477859235 18.350968530760724 ;
-	setAttr ".r" -type "double3" -14.738352714340865 2520.9999999978622 -2.4851868508864181e-17 ;
+	setAttr ".t" -type "double3" 18.183732886405299 11.046716488966444 3.6056812237819784 ;
+	setAttr ".r" -type "double3" -19.538352714232001 2596.1999999968352 -6.6668942651377507e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F999607D-4B51-BCCB-D7A1-B3B72341AEC3";
 	setAttr -k off ".v" no;
@@ -85,14 +85,16 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.3944929838180542 0.77454343438148499 ;
+	setAttr ".pv" -type "double2" 0.49872562289237976 0.81862139701843262 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 23 ".pt";
+	setAttr -s 27 ".pt";
+	setAttr ".pt[81]" -type "float3" 0 -2.0024832e-05 0 ;
 	setAttr ".pt[82]" -type "float3" -0.03647783 0 0 ;
+	setAttr ".pt[99]" -type "float3" 0 -2.0024832e-05 0 ;
 	setAttr ".pt[100]" -type "float3" 0.037972808 0 0 ;
 	setAttr ".pt[160]" -type "float3" 0.053414926 0 0 ;
 	setAttr ".pt[161]" -type "float3" 0.049942065 -0.0070190532 0 ;
